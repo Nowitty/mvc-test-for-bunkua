@@ -1,0 +1,9 @@
+{
+    "name": "ruslankuga/mvc-test-for-bunkua",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
