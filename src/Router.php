@@ -15,6 +15,8 @@ Class Router
             if ($route == $parsed) {
                 $str = "App"."\\".$controller;
                 $controllerObj = new $str;
+            } else {
+                echo '404 not found';
             }
         }
     }
